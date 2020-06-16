@@ -1,0 +1,17 @@
+{
+  "name": "polling-server",
+  "version": "1.0.0",
+  "description": "docker build and push server and helm repo polling server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Neil Toledo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "semver": "^7.3.2"
+  }
+}
